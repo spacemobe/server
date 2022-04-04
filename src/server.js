@@ -43,7 +43,7 @@ app.get('/podcasts', (req, res) => {
 		{
 			id: crypto.randomUUID(),
 			name: 'Maine Voice',
-			thumb: 'http://localhost:3333/static/main.jpeg',
+			thumb: 'https://doceimg.s3.amazonaws.com/radio_tunga_ne/main.jpeg',
 			urls: [
 				{ name: '64kbps AAC', uri: 'https://radiotungane.ao/radio/8000/radio' },
 				{ name: '48kbps AAC', uri: 'https://radiotungane.ao/radio/8000/mobile' },
