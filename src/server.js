@@ -33,7 +33,7 @@ app.get('/podcasts', (req, res) => {
 		{
 			id: crypto.randomUUID(),
 			name: 'Progama Muxima',
-			thumb: 'http://localhost:3333/static/muxima.jpeg',
+			thumb: 'https://doceimg.s3.amazonaws.com/radio_tunga_ne/muxima.jpeg',
 			urls: [
 				{ name: '64kbps AAC', uri: 'https://radiotungane.ao/radio/8030/radio' },
 				{ name: '48kbps AAC', uri: 'https://radiotungane.ao/radio/8030/mobile' },
@@ -181,7 +181,7 @@ app.get('/podcasts', (req, res) => {
 		{
 			id: crypto.randomUUID(),
 			name: 'Promo Music Angola',
-			thumb: 'http://localhost:3333/static/promo.jpeg',
+			thumb: 'https://doceimg.s3.amazonaws.com/radio_tunga_ne/promo.jpeg',
 			urls: [
 				{ name: '64kbps AAC', uri: 'https://radiotungane.ao/radio/8020/radio' },
 				{ name: '48kbps AAC', uri: 'https://radiotungane.ao/radio/8020/mobile' },
