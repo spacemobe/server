@@ -49,11 +49,53 @@ app.get('/podcasts', (req, res) => {
 				{ name: '48kbps AAC', uri: 'https://radiotungane.ao/radio/8000/mobile' },
 			],
 			programs: {
-				Dom: [1, 2, 3, 4].map(item => ({
-					id: crypto.randomUUID(),
-					hour: generateDate(),
-					name: Math.random().toString(36).substring(2),
-				})),
+				Dom: [
+					{
+						id: crypto.randomUUID(),
+						hour: '00:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '15:15',
+						name: 'Vaga de emprego',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '16:15',
+						name: 'Aprenda Inglês',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '17:15',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:15',
+						name: 'Diáspora',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:45',
+						name: 'Notícia',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '19:00',
+						name: 'Cotidiano',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '2:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '21:00',
+						name: 'Jornada Desportiva',
+					},
+				],
 				Seg: [
 					{
 						id: crypto.randomUUID(),
@@ -161,21 +203,147 @@ app.get('/podcasts', (req, res) => {
 					},
 				],
 
-				Qui: [1, 2, 3, 4].map(item => ({
-					id: crypto.randomUUID(),
-					hour: generateDate(),
-					name: Math.random().toString(36).substring(2),
-				})),
-				Sex: [1, 2, 3, 4].map(item => ({
-					id: crypto.randomUUID(),
-					hour: generateDate(),
-					name: Math.random().toString(36).substring(2),
-				})),
-				Sab: [1, 2, 3, 4].map(item => ({
-					id: crypto.randomUUID(),
-					hour: generateDate(),
-					name: Math.random().toString(36).substring(2),
-				})),
+				Qui: [
+					{
+						id: crypto.randomUUID(),
+						hour: '00:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '15:15',
+						name: 'Vaga de emprego',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '16:15',
+						name: 'Aprenda Inglês',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '17:15',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:15',
+						name: 'Diáspora',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:45',
+						name: 'Notícia',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '19:00',
+						name: 'Cotidiano',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '2:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '21:00',
+						name: 'Jornada Desportiva',
+					},
+				],
+				Sex: [
+					{
+						id: crypto.randomUUID(),
+						hour: '00:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '15:15',
+						name: 'Vaga de emprego',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '16:15',
+						name: 'Aprenda Inglês',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '17:15',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:15',
+						name: 'Diáspora',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:45',
+						name: 'Notícia',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '19:00',
+						name: 'Cotidiano',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '2:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '21:00',
+						name: 'Jornada Desportiva',
+					},
+				],
+				Sab: [
+					{
+						id: crypto.randomUUID(),
+						hour: '00:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '15:15',
+						name: 'Vaga de emprego',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '16:15',
+						name: 'Aprenda Inglês',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '17:15',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:15',
+						name: 'Diáspora',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '18:45',
+						name: 'Notícia',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '19:00',
+						name: 'Cotidiano',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '2:00',
+						name: 'Música',
+					},
+					{
+						id: crypto.randomUUID(),
+						hour: '21:00',
+						name: 'Jornada Desportiva',
+					},
+				],
 			},
 		},
 		{
