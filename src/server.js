@@ -33,6 +33,7 @@ app.get('/podcasts', (req, res) => {
 		{
 			id: crypto.randomUUID(),
 			name: 'Progama Muxima',
+			bgs: ['#A5BBFF', '#DDBEFE', '#FF63ED', '#B98EFF'],
 			thumb: 'https://doceimg.s3.amazonaws.com/radio_tunga_ne/muxima.jpeg',
 			urls: [
 				{ name: '64kbps AAC', uri: 'https://radiotungane.ao/radio/8030/radio' },
